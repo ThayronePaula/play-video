@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#information{
+    color: white;
+}
+#information h3{
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-variant: small-caps;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .btn{
+    display: none;
+}
+.container:hover .btn {
+    display: block;
+    
+} */

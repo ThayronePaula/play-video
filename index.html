@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Vídeo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icon-video.png">
+    <style>
+        body{
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .container{
+            margin: auto;
+            position: relative;
+            width: 640px;
+            height: 360px;
+        }
+        .video{
+            width: 100%;
+        }
+        .controle{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;  
+        }
+        .btn{
+            display: block;
+            position: relative;
+            top: 7%;
+            background-color: rgba(255, 255, 255, 0.6);
+            padding: 9px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <video id="video1" class="video" src="videos/15 Spectacular Nature Stock Footage – Royalty-Free Stock Footage No Copyright.mp4" poster="images/thumbnail.png" >
+        </video>
+        
+        <div class="controle">
+            <img class="btn" onclick="voltar_15()" src="images/voltar.png">
+            <img class="btn" onclick="proximo_15()" src="images/proximo.png">
+            <img class="btn" onclick="play()" src="images/play.png">
+            <img class="btn" onclick="stop()" src="images/stop.png">
+            <img class="btn" onclick="aum_vel()" src="images/aum.png">
+            <img class="btn" onclick="dim_vel()" src="images/dim.png">
+        </div>
+        
+    </div>
+    <div class="container" id="information">
+        <h3>Bem vindo, passe o mouse por cima dos botões</h3>
+    </div>
+    
+
+
+
+<script src="script.js">
+    
+</script>
+
+</body>
+</html>
